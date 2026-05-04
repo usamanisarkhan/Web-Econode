@@ -23,8 +23,9 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg-dark);
   color: var(--text-main);
-  line-height: 1.6;
+  line-height: 1.4; /* Slightly tighter line height */
   overflow-x: hidden;
+  font-size: 18px; /* Increased base font size */
 }
 
 h1, h2, h3 {
@@ -80,14 +81,15 @@ h1, h2, h3 {
 
 /* Section Layout */
 section {
-  padding: 100px 20px;
-  max-width: 1200px;
+  padding: 40px 20px; /* Greatly reduced padding */
+  max-width: 1400px; /* Wider container */
   margin: 0 auto;
+  min-height: auto; /* Allow sections to be smaller */
 }
 
 .section-title {
-  font-size: 2.5rem;
-  margin-bottom: 50px;
+  font-size: 3.5rem; /* Bigger titles */
+  margin-bottom: 20px; /* Reduced margin */
   text-align: center;
   background: linear-gradient(to right, #fff, #94a3b8);
   -webkit-background-clip: text;

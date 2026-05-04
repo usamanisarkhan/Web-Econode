@@ -30,22 +30,21 @@ const AboutUs = () => {
   ];
 
   return (
-    <section id="about">
-      <div style={{ textAlign: 'center', marginBottom: '80px' }}>
-        <h2 className="section-title">Innovating for a Greener Tomorrow</h2>
-        <p style={{ color: '#94a3b8', maxWidth: '800px', margin: '0 auto', fontSize: '1.1rem' }}>
-          Eco Node AI is dedicated to pushing the boundaries of artificial intelligence while maintaining a core commitment to sustainability. Our team of experts combines deep technical knowledge in AI with a passion for electrical engineering and environmental stewardship.
+    <section id="about" style={{ padding: '20px 20px' }}>
+      <div style={{ textAlign: 'center', marginBottom: '30px' }}>
+        <h2 className="section-title" style={{ fontSize: '3rem' }}>Future-Ready Intelligence</h2>
+        <p style={{ color: '#94a3b8', maxWidth: '1000px', margin: '0 auto', fontSize: '1.4rem' }}>
+          Sustainable AI, built by experts in energy and environmental stewardship.
         </p>
       </div>
 
       <div id="team">
-        <h2 className="section-title" style={{ fontSize: '2rem' }}>Meet Our Core Team</h2>
         <div style={{
           display: 'flex',
           flexWrap: 'wrap',
-          gap: '30px',
+          gap: '20px',
           justifyContent: 'center',
-          marginTop: '40px'
+          marginTop: '10px'
         }}>
           {team.map((member, index) => (
             <TeamCard key={index} {...member} />
