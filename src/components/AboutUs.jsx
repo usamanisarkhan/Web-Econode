@@ -8,21 +8,21 @@ const AboutUs = () => {
   const team = [
     {
       name: 'Usama Nisar',
-      role: 'Lead AI Engineer',
+      role: 'ICT Engineer - AI & ML Specialist',
       email: 'iusni001@edu.xamk.fi',
       linkedin: 'https://www.linkedin.com/in/usama-nisar/',
       image: usamaImg
     },
     {
       name: 'Zahra Sasannia',
-      role: 'AI & Systems Specialist',
+      role: 'Lead System Architect',
       email: 'izasa001@edu.xamk.fi',
       linkedin: 'https://www.linkedin.com/in/zahra-sasannia/',
       image: zahraImg
     },
     {
-      name: 'Mustafizur Rahman',
-      role: 'AI & Electrical Lead',
+      name: 'Md. Mustafizur Rahman',
+      role: 'Electronic Engineer - Power & Hardware',
       email: 'imdra006@edu.xamk.fi',
       linkedin: 'https://www.linkedin.com/in/md-mustafizur-rahman-53b068275/',
       image: mustafizurImg
